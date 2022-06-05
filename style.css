@@ -116,7 +116,6 @@ body {
     flex-direction: row;
     width: 100%;
     align-content: center;
-    height: 100%;
     margin-top: 80px;
     color: grey;
     padding: 5px;
@@ -132,6 +131,27 @@ body {
 .menu>li:hover {
     color: white;
 }
+
+#recently-played>h1 {
+    color: white;
+    padding: 10px;
+}
+
+#recently-played-body {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+.card-album {
+    width: 120px;
+}
+
+/* .center-container {
+    margin: 0px 10px 0px 10px;
+} */
 
 
 
