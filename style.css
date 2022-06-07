@@ -223,10 +223,22 @@ img {
         display: none;
     }
 
+    .user-box {
+        bottom: 15px;
+    }
+
     #albums {
         width: calc(100% - 100px);
         justify-content: flex-start;
     }
+
+    .header {
+        width: calc(100% - 100px);
+        justify-content: flex-start;
+
+    }
+
+   
      
 }
 
