@@ -82,6 +82,7 @@ img {
     color: white;
 }
 
+
 /* Header */
 
 .header {
@@ -186,6 +187,48 @@ img {
     padding: 5px;
 }
 
+/* mediaquery */
+
+@media screen and (max-width: 992px){
+    .card-album {
+        padding: 30px;
+        width: calc(100% / 4);
+    }
+    
+    
+}
+
+/* tablet */
+@media screen and (max-width: 768px){
+    .card-album {
+        padding: 15px;
+        width: calc(100% / 3);
+    }
+    
+    
+}
+/* phone */
+@media screen and (max-width: 576px){
+    
+    .card-album {
+        padding: 10px;
+        width: 50%;
+    }
+
+    #sidebar {
+        width: 100px;
+    }
+
+    #sidebar .sidebarnone {
+        display: none;
+    }
+
+    #albums {
+        width: calc(100% - 100px);
+        justify-content: flex-start;
+    }
+     
+}
 
 
 
