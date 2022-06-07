@@ -21,6 +21,8 @@ body {
     width: 250px;
     height: calc(100vh - 70px);
     position: relative;
+    overflow-y: auto;
+    
 }
 
 #albums {
@@ -30,11 +32,7 @@ body {
     overflow-y: auto;
 }
 
-#footer {
-    height: 70px;
-    width: 100%;
-    background-color: #282828;
-}
+
 
 img {
     max-width: 100%;
@@ -47,11 +45,12 @@ img {
     max-width: 180px;
     max-height: 80px;
     padding: 1rem;
+    height: 25%;
     
 }
 
 .list-sidebar {
-    height: auto;
+    height: 50%;
     width: 35px;
     list-style-type: none;
     padding: 5px;
@@ -165,9 +164,30 @@ img {
 }
 
 
-.center-container {
-    margin: 0px 10px 0px 10px;
+/* footer */
+
+#footer {
+    height: 70px;
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    position: absolute;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
