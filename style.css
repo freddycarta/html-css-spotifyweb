@@ -27,12 +27,17 @@ body {
     background-color: #141922;
     width: calc(100% - 250px);
     height: calc(100vh - 70px);
+    overflow-y: auto;
 }
 
 #footer {
     height: 70px;
     width: 100%;
     background-color: #282828;
+}
+
+img {
+    max-width: 100%;
 }
 
 
@@ -132,6 +137,10 @@ body {
     color: white;
 }
 
+img {
+    max-width: 100%;
+}
+
 #recently-played>h1 {
     color: white;
     padding: 10px;
@@ -139,19 +148,26 @@ body {
 
 #recently-played-body {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 15px;
     color: white;
     text-align: center;
 }
 
 .card-album {
-    width: 120px;
+    padding: 30px;
+    width: calc(100% / 6);
 }
 
-/* .center-container {
+.card-album:hover {
+    transform: translateY(-10px) scale(1.05);
+    transition: 1s;
+}
+
+
+.center-container {
     margin: 0px 10px 0px 10px;
-} */
+}
 
 
 
